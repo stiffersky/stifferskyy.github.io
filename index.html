@@ -1,99 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemo1975</title>
+    <!--- STYLES -->
+    <link rel="stylesheet" href="index.css">
+    <!--- FONTS -->
+    <script src="https://kit.fontawesome.com/21c71827ca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="fonts/pfhandbookpro.css">
+    <link rel="stylesheet" href="fonts/gothampro.css">
+</head>
+<body>
+    <video muted autoplay loop src="video/video.mp4"></video>
+    <audio autoplay loop src="audio/music.mp3"></audio>
+    <div class="content">
+        <div id="title">Lemo1975</div>
 
-<!--
-
-Слит сайтом WebStudio.PW
-vk.com/qu1kgg - вк
-vk.com/ws_pw - группа вк
-WebStudio.PW - сайтом
-Trade.WebStudio.PW - поддержать меня
--->
-<html>
-	<head>
-		<title>loginsky home page</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8">		
-			
-		<link rel="stylesheet" href="css/style.css" >
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
-		<script type="text/javascript" src="js/jquery.min.js" defer></script>	
-		<script type="text/javascript" src="js/particles.min.js" defer></script>
-		<script type="text/javascript" src="js/main.js" defer></script>
-		<script type="text/javascript" src="js/a5e30dd034.js"></script>
-		<script type="text/javascript" src="js/skel.min.js"></script>
-		<script type="text/javascript" src="js/init.js"></script>	
-	</head>
-    
-	<body class="loading">		
-		<div id="wrapper">
-			<video autoplay="1" id="player" onended="location.reload();">
-				<source src="video/video4.mp4" type="video/mp4"></video>     
-			<div id="overlay"></div>
-			<div id="main">				
-					<header id="header">					
-					<ul>					
-					<marquee aligt="center" scrollamount="50" width="540" style="width:540px;">&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;</marquee>
-					</ul>	
-                      <span id="doc_time">Time</span>					
-						<h1>loginsky</h1>
-						<nav>
-							<ul>	
-								<center>
-									<li><a href="https://vk.com/id536894689"  target="_blank" class="fa fa-vk"></a></li>	
-									<li><a href="https://steamcommunity.com/id/stiffersky/"  target="_blank" class="fa fa-steam-square" aria-hidden="true"></a></li>	
-									<li><a href="https://t.me/smokshowyt"  target="_blank" class="fa fa-paper-plane" aria-hidden="true"></a></li>
-								</center>
-							</ul>
-							<ul>
-							<marquee aligt="center" scrollamount="50" direction="right" width="540" style="width:540px;">&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;</marquee>
-							</ul>		
-						</nav>
-					</header>				
-			</div>
-		</div>
-		<img src="1IHYy/image.png" title="iplogger.com - IP Logging Service" border="0">
-		
-	</body>
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script type="text/javascript">
-function clock() {
-var d = new Date();
-var hours = d.getHours();
-var minutes = d.getMinutes();
-var seconds = d.getSeconds();
-
-
-if (hours <= 9) hours = "0" + hours;
-if (minutes <= 9) minutes = "0" + minutes;
-if (seconds <= 9) seconds = "0" + seconds;
-
-date_time = hours + ":" + minutes + ":" + seconds;
-if (document.layers) {
- document.layers.doc_time.document.write(date_time);
- document.layers.doc_time.document.close();
-}
-else document.getElementById("doc_time").innerHTML = date_time;
- setTimeout("clock()", 1000);
-}
-</script>
-<script type="text/javascript">
- clock();
-</script>
-
-</script>
-
+        <div id="subtitle">Contacts</div>
+        <div class="contacts">
+            <div class="gameOxygen item" onmouseover="document.querySelector('#go').style.color = 'white'; document.querySelector('#goText').style.color = 'white'" onmouseout="document.querySelector('#go').style.color = 'rgb(0, 140, 255)'; document.querySelector('#goText').style.color ='black';">
+                <a href="https://gameoxygen.space/members/91/" target="_blank"><i id="go" class="fab fa-gg-circle"><span id="goText" class="contactText">Game Oxygen</span></i></a>
+            </div>
+            <div class="telegram item" onmouseover="document.querySelector('#tg').style.color = 'white'; document.querySelector('#tgText').style.color = 'white'" onmouseout="document.querySelector('#tg').style.color = 'rgb(0, 140, 255)'; document.querySelector('#tgText').style.color ='black';">
+                <a  href="https://t.me/smokshowyt" target="_blank"><i id="tg" class="fab fa-telegram"><span id="tgText" class="contactText">Telegram</span></i></a>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
